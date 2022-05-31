@@ -1,0 +1,25 @@
+.postTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.postSummary {
+  display: -webkit-box;
+  font-size: 1rem;
+  color: #444;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.postLink {
+  margin-block-start: 10px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #955fff;
+}
+
+.postLink:hover {
+  text-decoration: none;
+}

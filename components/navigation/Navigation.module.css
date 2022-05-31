@@ -6,15 +6,21 @@
   gap: 20px;
 }
 
-.nav a {
+.navLink {
   font-size: 1rem;
   font-weight: 700;
   color: #222;
+  border-bottom: 2px solid transparent;
   text-decoration: none;
   transition: color 200ms linear;
   will-change: color;
 }
 
-.nav a:hover {
+.navLinkActive,
+.navLink:hover {
   color: #955fff;
+}
+
+.navLinkActive {
+  border-bottom-color: #955fff;
 }

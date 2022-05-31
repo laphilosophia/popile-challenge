@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <DefaultLayout title="Home">
       <h1>Home</h1>
-      <div>homepage</div>
+      <div>Welcome MF!</div>
     </DefaultLayout>
   )
 }

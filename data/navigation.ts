@@ -14,11 +14,6 @@ export const NavigationMenuData: NavigationMenuDataProps = [
     text: 'Posts',
   },
   {
-    id: 'popile-photos',
-    href: '/photos',
-    text: 'Photos',
-  },
-  {
     id: 'popile-users',
     href: '/broken-page',
     text: 'Broken Page',

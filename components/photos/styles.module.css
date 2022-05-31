@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.item p {
+  display: -webkit-box;
+  font-size: 1rem;
+  color: #444;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.item a {
+  margin-block-start: 10px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #955fff;
+}
+
+.item a:hover {
+  text-decoration: none;
+}
