@@ -33,6 +33,17 @@ class PopileDocument extends Document {
             name="Description"
             content="Sevdiğin ünlülerden doğum günü, tebrik ve yıl dönümü mesajları iste. Özel günlerinde sevdiklerini mutlu et. Popile, yeni nesil hediye."
           />
+          <script
+            data-partytown-config
+            dangerouslySetInnerHTML={{
+              __html: `
+                partytown = {
+                  lib: "/_next/static/~partytown/",
+                  forward: ["gtag"]
+                };
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
