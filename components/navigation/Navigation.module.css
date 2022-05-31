@@ -1,0 +1,20 @@
+.nav {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav a {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  text-decoration: none;
+  transition: color 200ms linear;
+  will-change: color;
+}
+
+.nav a:hover {
+  color: #955fff;
+}
