@@ -1,13 +1,13 @@
 import { DefaultLayout } from '../../layouts'
 import type { NextPage } from 'next'
 
-export const Post: NextPage = () => {
+export const Photos: NextPage = () => {
   return (
-    <DefaultLayout title="Post">
-      <h1>Post</h1>
+    <DefaultLayout title="Photos">
+      <h1>Photos</h1>
       <div></div>
     </DefaultLayout>
   )
 }
 
-export default Post
+export default Photos

@@ -14,19 +14,14 @@ export const NavigationMenuData: NavigationMenuDataProps = [
     text: 'Posts',
   },
   {
-    id: 'popile-comments',
-    href: '/comments',
-    text: 'Comments',
-  },
-  {
     id: 'popile-photos',
     href: '/photos',
     text: 'Photos',
   },
   {
     id: 'popile-users',
-    href: '/users',
-    text: 'Users',
+    href: '/broken-page',
+    text: 'Broken Page',
   },
 ]
 
